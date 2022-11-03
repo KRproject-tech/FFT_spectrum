@@ -10,5 +10,4 @@ __Example__
 
 $f(t) = 6 \sin(2\pi 1.25t) + 5 \sin(2\pi 100t) + 3 \cos(2\pi 1000t)$
 
-![image](https://user-images.githubusercontent.com/114337358/199649954-60cd5768-513d-4001-9c3d-ee78036a8884.png)
-
+![image](https://user-images.githubusercontent.com/114337358/199769283-c5e9a5c8-cb95-472a-afbf-bed8d7868a53.png)
