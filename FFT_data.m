@@ -20,11 +20,14 @@ if ~exist( 'N_zeropad', 'var')
     N_zeropad = N_data; 
 else     
     if N_zeropad < N_data
-        N_zeropad = N_data;
+        N_zeropad = N_data;   
+    else
+        f_vec = (1:N_data)/N_data*t_samp^-1*N_data/N_zeropad;
     end
 end
 
 fft_data = fft( data, N_zeropad);
+
 
 
 %% [3] 振幅スペクトル算出 [1]
